@@ -8,7 +8,7 @@ def read_input():
         pattern = input()
         text = input()
     elif ("F" in choice):
-        path = "./tests/"
+        path = "./tests/06"
         f = open(path, "r")
         pattern = f.readline()
         text = f.readline()
